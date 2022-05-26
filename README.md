@@ -1,7 +1,7 @@
 # socket
 
 
-'''bash
+```bash
 ├───.anaconda
 │   └───navigator
 │       ├───content
@@ -30,4 +30,4 @@
 │   │   ├───4.0.1
 │   │   └───4.0.2
 │   ├───cache
- '''
+```
