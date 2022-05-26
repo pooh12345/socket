@@ -1,15 +1,7 @@
 # socket
 
-#!/bin/bash
 
-#File: tree-md
-
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
-
-printf "# Project tree\n\n${tree}"
-
-       '''bash
+'''bash
 ├───.anaconda
 │   └───navigator
 │       ├───content
@@ -38,5 +30,4 @@ printf "# Project tree\n\n${tree}"
 │   │   ├───4.0.1
 │   │   └───4.0.2
 │   ├───cache
-
-       '''
+ '''
